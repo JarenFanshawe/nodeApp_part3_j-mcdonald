@@ -81,6 +81,8 @@ video {
 .genre-lists {
 	padding: 0 14px;
 	overflow: hidden;
+	border-bottom: 1px solid grey;
+	padding-bottom: 30px;
 
 	div {
 		position: relative;
@@ -89,6 +91,12 @@ video {
 		overflow-x: auto;
 		overflow-y: hidden;
 	}
+}
+
+.genre-lists:last-child {
+
+	border-bottom: none;
+	padding-bottom: 30px;
 }
 
 .genre-item {
