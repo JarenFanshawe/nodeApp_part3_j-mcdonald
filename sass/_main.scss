@@ -1,4 +1,8 @@
-* { border: 0; padding: 0; margin: 0; }
+* {
+	border: 0;
+	padding: 0;
+	margin: 0;
+}
 
 body {
 	font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
@@ -28,10 +32,13 @@ header {
 	}
 }
 
-video { width: 100%; }
+video {
+	width: 100%;
+}
 
-.movie-wrapper { 
-	position: relative; padding-top: 52px;
+.movie-wrapper {
+	position: relative;
+	padding-top: 52px;
 
 	aside {
 		position: absolute;
@@ -42,8 +49,12 @@ video { width: 100%; }
 	}
 }
 
-.movie-title { font-size: 1.7em; }
-.movie-year, .movie-time { font-size: 1.5em; }
+.movie-title {
+	font-size: 1.7em;
+}
+.movie-year, .movie-time {
+	font-size: 1.5em;
+}
 
 .movie-genre {
 	font-size: 1.25em;
@@ -53,30 +64,41 @@ video { width: 100%; }
 	margin-top: 8px;
 }
 
-.genre-name { font-size: 2em; padding: 1em 0 0.35em; }
+.genre-name {
+	font-size: 2em;
+	padding: 1em 0 0.35em;
+}
 
-.movie-thumb { width: 160px; }
+.movie-thumb {
+	width: 160px;
+}
 
 .genre-list {
   padding: 0 14px;
   list-style-type: none;
 }
 
-.genre-lists { 
-	padding: 0 14px; overflow: hidden;
+.genre-lists {
+	padding: 0 14px;
+	overflow: hidden;
 
-	> div { 
-		position: relative; 
-		transition: all .5s; 
+	div {
+		position: relative;
+		transition: all .5s;
 		white-space: nowrap;
 		overflow-x: auto;
-		overflow-y: hidden; 
+		overflow-y: hidden;
 	}
 }
 
-.genre-item { display: inline-block; }
+.genre-item {
+	display: inline-block;
+}
 
-.movie-list { display: inline-block; margin-right: 1.25em; }
+.movie-list {
+	display: inline-block;
+	margin-right: 1.25em;
+}
 
 nav {
 	ul {
@@ -92,14 +114,14 @@ nav {
 			cursor: pointer;
 		}
 	}
-} 
+}
 
 footer {
 	padding: 2em 1em;
 	clear: both;
 
 
-	ul { 
+	ul {
 		list-style-type: none;
 
 		li {

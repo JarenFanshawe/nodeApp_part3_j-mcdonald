@@ -1,4 +1,5 @@
 <section id="app">
+
   <div class="movie-wrapper">
     <aside>
       <h4 class="movie-title">{{ defaultMovie.movies_title }}</h4>
@@ -17,13 +18,16 @@
   <section class="genre-lists" v-for="genre in genres">
     <div v-if="genre.movies.length > 0">
       <div class="genre-item">
+
         <h6 class="genre-name">${ genre.name }</h6>
         <div class="movie-list" v-for="movie in genre.movies">
-          <a :href="'/movies/' + movie.movies_id + '/' + movie.movies_trailer">
-            <img class="movie-thumb" :src="'images/' + movie.movies_cover" :alt="movie.movies_title">
-          </a>
+        	<a :href="'/movies/' + movie.movies_id + '/' + movie.movies_trailer">
+            	<img class="movie-thumb" :src="'images/' + movie.movies_cover" :alt="movie.movies_title">
+        	</a>
         </div>
+		
       </div>
     </div>
   </section>
+
 </section>
